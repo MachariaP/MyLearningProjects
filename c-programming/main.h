@@ -7,6 +7,12 @@
  * int prototypes (int)
  */
 
+struct Account {
+    int accountNumber;
+    char accountName[100];
+    float balance;
+};
+
 // Function prototypes
 void createAccount(struct Account *accounts, int *totalAccounts);
 void deposit(struct Account *accounts, int totalAccounts);
