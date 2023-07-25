@@ -7,6 +7,7 @@
  * int prototypes (int)
  */
 
+// Structure to represent an account
 struct Account {
     int accountNumber;
     char accountName[100];

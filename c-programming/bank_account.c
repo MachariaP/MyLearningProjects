@@ -3,13 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Structure to represent an account
-struct Account {
-    int accountNumber;
-    char accountName[100];
-    float balance;
-};
-
 
 int main() {
     struct Account accounts[100]; // Assuming we can have up to 100 accounts
